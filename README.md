@@ -17,12 +17,5 @@ From the Vert.x manual:
 > If your application cares about lost messages, you should code your handlers to be idempotent, and your senders to retry after recovery.
 
 This library is designed to fill that small niche spot when sending eventbus messages to have an additional
-API to support retry logic.
-
-The library is designed to work on either the sender side or both the sender side and receiving side.
-
-| Idempotent Retry Sender Only | Idempotent Retry Sender and Receiver | Idempotent Retry Consumer Only |
-| Works | Works | Special handling required * |
-
-## Special Handling
+API to support retry logic. The actual implementation of this library is supported only on the sending side.
 
