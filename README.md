@@ -1,3 +1,5 @@
+# Note: Work in progress, nothing to see yet.
+
 # vertx-idempotent-retry
 
 Vert.x Idempotent Retry library is a simple Vert.x Event Bus enhancement that wraps the standard Event
